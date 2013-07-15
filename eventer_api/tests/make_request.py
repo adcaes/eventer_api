@@ -4,9 +4,9 @@ from datetime import datetime
 import json
 from StringIO import StringIO
 
-import api.root as root
+import eventer_api.root as root
 
-the_api = root.MetCounterApi()
+the_api = root.EventerApi()
 site = Site(the_api, timeout=None)
 
 class FakeChannel(object):

@@ -1,4 +1,4 @@
-metcounter_tracker
+Eventer Api
 ==================
 
-Tracking metrics.
+An api for tracking events.

@@ -4,7 +4,7 @@ import json
 
 import events
 
-class MetCounterApi(APIResource):
+class EventerApi(APIResource):
 
     @ALL('^/ping')    
     def ping(self, request):
